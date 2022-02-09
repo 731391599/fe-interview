@@ -1,0 +1,15 @@
+{
+    "name": "fe-interview",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev:server": "pnpm dev --filter fe-server",
+        "dev:web": "pnpm serve --filter fe-web",
+        "dev:admin": "pnpm serve --filter fe-admin",
+        "dev:h5": "pnpm dev --filter fe-h5"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
